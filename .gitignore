@@ -3,6 +3,7 @@
 */bin/*
 */gen/*
 */target/*
+target/*
 target/*.pom
 target/*.asc
  
