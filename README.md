@@ -24,8 +24,8 @@ view.setImageBitmap(bitmap);
 
 ```xml
 <dependency>
-  <groupId>com.github.devnied</groupId>
-  <artifactId>AndroidBitmapTransform</artifactId>
+  <groupId>com.github.devnied.AndroidBitmapTransform</groupId>
+  <artifactId>parent</artifactId>
   <version>1.0.0</version>
 </dependency>
 ```
