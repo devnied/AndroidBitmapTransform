@@ -8,11 +8,19 @@ AndroidBitmapTransform is an useful library to do Bitmap transformation on Andro
 
 It is very easy to get started with AndroidBitmapTransform:
 
-* Multiply two bitmaps
+* Exemple to Multiply two bitmaps
 
 ```java
 ImageView view = (ImageView) findViewById(R.id.bitmapResult);
 Bitmap bitmap = BitmapTransform.createBitmap(this,R.drawable.dst, R.drawable.src, PorterDuff.Mode.MULTIPLY, true, false);
+view.setImageBitmap(bitmap);
+```
+
+* Exemple to Add two bitmaps
+
+```java
+ImageView view = (ImageView) findViewById(R.id.bitmapResult);
+Bitmap bitmap = BitmapTransform.createBitmap(this,R.drawable.dst, R.drawable.src, PorterDuff.Mode.ADD, true, false);
 view.setImageBitmap(bitmap);
 ```
 
