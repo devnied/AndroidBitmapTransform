@@ -1,4 +1,4 @@
-AndroidBitmapTransform
+AndroidBitmapTransform [![Build Status](https://travis-ci.org/devnied/AndroidBitmapTransform.png?branch=master)](https://travis-ci.org/devnied/AndroidBitmapTransform)
 ======================
 
 AndroidBitmapTransform is an useful library to do Bitmap transformation on Android.<br/>
