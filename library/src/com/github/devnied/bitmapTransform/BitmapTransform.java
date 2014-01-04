@@ -37,11 +37,11 @@ public final class BitmapTransform {
 	}
 
 	/**
-	 * Method to obtain an bitmap form resources Id
+	 * Method to obtain an bitmap from resources Id
 	 * 
 	 * @param pContext Application context
 	 * @param pResId resources Id
-	 * @return the bitmap corresponding to the pResId or <code>null</code>
+	 * @return Bitmap corresponding to the pResId or <code>null</code>
 	 */
 	public static Bitmap getBitmapResources(final Context pContext,
 			final int pResId) {
@@ -70,7 +70,7 @@ public final class BitmapTransform {
 	}
 
 	/**
-	 * Method to create a bitmap form two bitmap resources
+	 * Method to create a bitmap from two bitmap resources
 	 * @param pContext Application context
 	 * @param pDstId bitmap dest
 	 * @param pSrcId bitmap src
