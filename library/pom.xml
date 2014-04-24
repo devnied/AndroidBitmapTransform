@@ -3,13 +3,13 @@
 	<groupId>com.github.devnied.AndroidBitmapTransform</groupId>
 	<artifactId>library</artifactId>
 	<packaging>jar</packaging>
-	<version>1.0.2-SNAPSHOT</version>
+	<version>1.0.1-SNAPSHOT</version>
 	<name>AndroidBitmapTransform library</name>
 	
 	<parent>
     	<groupId>com.github.devnied.AndroidBitmapTransform</groupId>
     	<artifactId>parent</artifactId>
-   	 	<version>1.0.2-SNAPSHOT</version>
+   	 	<version>1.0.1-SNAPSHOT</version>
  	</parent>
 
 	<dependencies>

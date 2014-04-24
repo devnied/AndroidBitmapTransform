@@ -3,7 +3,7 @@
 	<groupId>com.github.devnied.AndroidBitmapTransform</groupId>
 	<artifactId>parent</artifactId>
 	<packaging>pom</packaging>
-	<version>1.0.2-SNAPSHOT</version>
+	<version>1.0.1-SNAPSHOT</version>
 	<name>AndroidBitmapTransform project</name>
 	
 	<parent>
