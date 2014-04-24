@@ -3,7 +3,7 @@
 	<groupId>com.github.devnied.AndroidBitmapTransform</groupId>
 	<artifactId>parent</artifactId>
 	<packaging>pom</packaging>
-	<version>1.0.1-SNAPSHOT</version>
+	<version>1.0.1</version>
 	<name>AndroidBitmapTransform project</name>
 	
 	<parent>
@@ -41,7 +41,7 @@
     	<connection>scm:git:git@github.com:devnied/AndroidBitmapTransform.git</connection>
     	<developerConnection>scm:git:git@github.com:devnied/AndroidBitmapTransform.git</developerConnection>
     	<url>scm:git:git@github.com:devnied/AndroidBitmapTransform.git</url>
-	    <tag>HEAD</tag>
+	    <tag>parent-1.0.1</tag>
     </scm>
 
 	<modules>
