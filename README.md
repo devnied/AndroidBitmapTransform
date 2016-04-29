@@ -1,14 +1,14 @@
-AndroidBitmapTransform [![Build Status](https://travis-ci.org/devnied/AndroidBitmapTransform.png?branch=master)](https://travis-ci.org/devnied/AndroidBitmapTransform)
+AndroidBitmapTransform [![Build Status](https://travis-ci.org/devnied/AndroidBitmapTransform.png?branch=master)](https://travis-ci.org/devnied/AndroidBitmapTransform) [![Android Arsenal](http://img.shields.io/badge/Android%20Arsenal-Android--BitmapTransform-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/3504)
 ======================
 
 AndroidBitmapTransform is an useful library to do Bitmap transformation on Android.<br/>
-<b>Current version : 1.0.0</b> 
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.devnied.AndroidBitmapTransform/library/badge.svg?style=flat)](https://maven-badges.herokuapp.com/maven-central/com.github.devnied.AndroidBitmapTransform/library)
 
 ##Simple API
 
 It is very easy to get started with AndroidBitmapTransform:
 
-* Exemple to Multiply two bitmaps
+**Exemple to Multiply two bitmaps**
 
 ```java
 ImageView view = (ImageView) findViewById(R.id.bitmapResult);
@@ -16,7 +16,7 @@ Bitmap bitmap = BitmapTransform.createBitmap(this,R.drawable.dst, R.drawable.src
 view.setImageBitmap(bitmap);
 ```
 
-* Exemple to Add two bitmaps
+**Exemple to Add two bitmaps**
 
 ```java
 ImageView view = (ImageView) findViewById(R.id.bitmapResult);
@@ -24,7 +24,7 @@ Bitmap bitmap = BitmapTransform.createBitmap(this,R.drawable.dst, R.drawable.src
 view.setImageBitmap(bitmap);
 ```
 
-* List of PorterDuff modes
+**List of PorterDuff modes**
 
 ![](https://raw.github.com/devnied/AndroidBitmapTransform/master/%20Xfermodes.png)
 
